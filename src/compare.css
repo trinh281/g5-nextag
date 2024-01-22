@@ -1,0 +1,64 @@
+.compare-container {
+  max-width: 1200px;
+  margin: 34px auto; 
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.compare-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+.compare-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.compare-item-image {
+  position: relative;
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 1rem;
+}
+
+.compare-item-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.compare-item-table {
+  margin: 0;
+  padding: 0;
+}
+
+.compare-item-table th,
+.compare-item-table td {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.compare-item-table th {
+  font-weight: bold;
+  text-align: left;
+}
+
+.compare-item-table td:last-child {
+  text-align: right;
+}
+
+.product-name {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}

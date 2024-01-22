@@ -1,0 +1,145 @@
+/* responsive.css */
+
+/* Common styles */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Header styles */
+  .headerofhome {
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+  
+  #wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 10px;
+  }
+  
+  #menu {
+    display: flex;
+  }
+  
+  .item {
+    margin-right: 15px;
+  }
+  
+  /* Banner styles */
+  #banner {
+    padding: 20px;
+  }
+  
+  .box-left {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Products styles */
+  #wp-products {
+    padding: 20px;
+  }
+  
+  #list-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .item {
+    width: 30%; /* Adjust as needed */
+    margin: 10px;
+  }
+  
+  .picsp {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Saleoff styles */
+  #saleoff {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Footer styles */
+  #footer {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Google Maps styles */
+  .location {
+    width: 100%;
+    height: 300px;
+    border: 0;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .headerofhome {
+      padding: 5px;
+    }
+  
+    #menu {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .item {
+      margin-bottom: 10px;
+    }
+  
+    .box-left {
+      width: 100%;
+    }
+  
+    .item {
+      width: 100%;
+    }
+  
+    #wp-products {
+      padding: 10px;
+    }
+  
+    .item {
+      width: 100%;
+    }
+  
+    #list-products {
+      justify-content: center;
+    }
+  
+    #saleoff {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box-right img {
+      width: 100%;
+    }
+  
+    #footer {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+  
