@@ -32,12 +32,14 @@ function ProductDetail({ data, onCompare }) {
           <p>Style: {selectedProduct.Style}</p>
         </div>
       )}
-      <button onClick={() => setShowMore(!showMore)}>
-        {showMore ? 'Ẩn thông tin' : 'Xem thêm thông tin'}
-      </button>
-      <Link to="/compare">
-        <button onClick={handleCompareClick}>Compare</button>
-      </Link>
+      <button className="btn btn-primary" onClick={() => setShowMore(!showMore)}>
+  {showMore ? 'Hide Details' : 'Show More Details'}
+</button>
+<Link to="/compare">
+  <button className="btn btn-success" onClick={handleCompareClick}>
+    Compare
+  </button>
+</Link>
     </div>
     </div>
   );

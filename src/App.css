@@ -316,3 +316,7 @@ button {
   
   margin-top: 85px;
 }
+
+.card-text{
+  color: red;
+}
