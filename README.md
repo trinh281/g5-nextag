@@ -28,6 +28,7 @@ eProject documentation at https://github.com/trinh281/g5-nextag/tree/main/Docume
 eProject published at https://g5-nextag.netlify.app/
 
 video clip link: https://drive.google.com/drive/folders/1rVnA0fUUgV5_wCWnLbESmVnU0Zc1RnT4?usp=sharing
+
 ============================
 
 Thank you for spending your time to look at our work.
